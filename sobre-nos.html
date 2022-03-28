@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todos os Produtos - Bacanas Security</title>
+    <link rel="stylesheet" href="_css/style.css">
+    
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['bar']});
+      google.charts.setOnLoadCallback(drawStuff);
+
+      function drawStuff() {
+        var data = new google.visualization.arrayToDataTable([
+          ['CURSOS', 'Porcentagem'],
+          ["Arquitetura e Desenvolvimento", 44],
+          ["Inteligencia Artificial", 31],
+          ["Análise de Negócios", 12],
+          ["Tecnologia da Informação", 10],
+          ['Outros', 3]
+        ]);
+
+        var options = {
+          title: 'Chess opening moves',
+          width: 900,
+          legend: { position: 'none' },
+
+          bars: 'horizontal', // Required for Material Bar Charts.
+          axes: {
+            x: {
+              0: { side: 'top'} // Top x-axis.
+            }
+          },
+          bar: { groupWidth: "90%" }
+        };
+
+        var chart = new google.charts.Bar(document.getElementById('top_x_div'));
+        chart.draw(data, options);
+      };
+    </script>
+</head>
+<body>
+
+
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="_images/Logo_Bacana_Security_-_Circular.png" width="125px">
+               </div> 
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a> </li>
+                        <li><a href="cursos.html">Cursos</a> </li>
+                        <li><a href="apoiadores.html">Apoiadores</a> </li>
+                        <li><a href="sobre-nos.html">Sobre nos</a> </li>
+                        <li><a href="fale-conosco.html">Fale conosco</a> </li>
+                        <li><a href="conta.html">Conta</a> </li>
+                    </ul>
+                </nav>
+        </div>  
+
+    </div>
+
+
+
+
+
+
+    
+
+
+
+
+<div class="offer">
+        <div class="small-container">
+               <h1 class="title"> SOBRE NÓS </h1>
+            <div class="row">
+                    
+                <div class="cool_1">
+                    <img src="_multimidia/sobre_nos.jfif" class="offer-img">
+                <div class="cool_2">
+                    
+                <h1 class="title"> Quem somos? </h1>
+                    <div class="cool_3"></div>
+                    <h3>
+                                A bacana security é uma empresa focada em segurança da informação,
+                            atendemos empresas, pessoas jurídicas e/ou qualquer entidade que
+                            esteja com problemas na área de segurança da informação.
+                    </h3>
+
+                    <br>
+
+                    <h3>
+                        Além de oferecer uma plataforma completa, encurtamos o caminho para que 
+                        produtores de conteúdo do mundo inteiro possam se profissionalizar. 
+                        Possibilitamos mudanças significativas na vida das pessoas e isso é só o começo.
+                    </h3>
+                    <br>
+
+                    <h3>
+                        Todo produto digital tem potencial de se tornar um negócio de verdade
+                    </h3>
+                    <br>
+                    <br>
+                    <h1 class="title"> Cursos mais vendido na Bacanas Security</h1>
+                    
+
+                    <br>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="top_x_div" style="width: 900px; height: 500px;"></div>
+
+
+   <!-----Pezinho----->
+   <div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3> Baixe nosso aplicativo</h3>
+                <p> Baixe nosso aplicativo para Android e ios disponível para celulares</p>
+                <div class="app-logo">
+                    <img src="_images/mobile1.png">
+                    <img src="_images/mobile2.png">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="_images/Logo_Bacana_Security_-_Circular.png">
+                <p> Nosso proposito é de uma forma sustentável dar os prazeres e benefícios de uma boa Segurança acessível para todos</p>
+            </div>
+            <div class="footer-col-3">
+                <h3> Links Uteis</h3>
+                <ul>
+                    <li>Cupons</li>
+                    <li>Post das redes sociais</li>
+                    <li>Politica de retorno</li>
+                    <li>Se torne afiliado</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3> Nos siga nas redes sociais</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>Youtube</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright 2021 - Bacanas Security</p>
+    </div>
+</div>
+
+</body>
+</html>
